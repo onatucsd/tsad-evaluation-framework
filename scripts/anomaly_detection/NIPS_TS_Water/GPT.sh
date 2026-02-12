@@ -1,0 +1,26 @@
+#echo "# path to me --------------->  ${0}"
+python -u run.py \
+  --task_name anomaly_detection \
+  --is_training 1 \
+  --root_path ./dataset/NIPS_TS_Water \
+  --model_id NIPS_TS_Water \
+  --model GPT4TS \
+  --data NIPS_TS_Water \
+  --features M \
+  --seq_len 100 \
+  --pred_len 0 \
+  --gpt_layers 6 \
+  --d_model 768 \
+  --d_ff 128 \
+  --patch_size 1 \
+  --stride 1 \
+  --enc_in 9 \
+  --c_out 9 \
+  --batch_size 128 \
+  --learning_rate 0.0001 \
+  --train_epochs 10 \
+  --sc_function MoC \
+  --th_idp 1 \
+  --th_function Best-F \
+  --ratio 100 \
+  --baseline 0 

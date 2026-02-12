@@ -1,0 +1,26 @@
+#echo "# path to me --------------->  ${0}"
+python -u run.py \
+  --task_name anomaly_detection \
+  --is_training 0 \
+  --root_path ./dataset/SWaT \
+  --model_id SWAT \
+  --model GPT4TS \
+  --data SWAT \
+  --features M \
+  --seq_len 100 \
+  --pred_len 0 \
+  --gpt_layers 6 \
+  --d_model 768 \
+  --d_ff 128 \
+  --patch_size 1 \
+  --stride 1 \
+  --enc_in 51 \
+  --c_out 51 \
+  --batch_size 32 \
+  --learning_rate 0.0001 \
+  --train_epochs 10 \
+  --sc_function MoC \
+  --th_idp 0 \
+  --th_function Best-F \
+  --ratio 100 \
+  --baseline 0 
