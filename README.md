@@ -96,6 +96,19 @@ If you have any questions or suggestions, feel free to contact:
 
 Or describe it in Issues.
 
+## Citation
+If you use this repository in your research, please cite our work:
+```text
+@inproceedings{gungor2024robust,
+  title={A robust framework for evaluation of unsupervised time-series anomaly detection},
+  author={Gungor, Onat and Rios, Amanda and Mudgal, Priyanka and Ahuja, Nilesh and Rosing, Tajana},
+  booktitle={International Conference on Pattern Recognition},
+  pages={48--64},
+  year={2024},
+  organization={Springer}
+}
+```
+
 ## Acknowledgement
 
 This library is constructed based on the following repositories:
