@@ -93,7 +93,6 @@ bash ./scripts/anomaly_detection/SWAT/TimesNet.sh
 If you have any questions or suggestions, feel free to contact:
 
 - Onat Gungor (ogungor@ucsd.edu)
-- Amanda Rios (amanda.rios@intel.com)
 
 Or describe it in Issues.
 
