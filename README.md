@@ -1,5 +1,4 @@
-# Intel-TAD: Intel Time Series Anomaly Detection 
-Intel-TAD is an open-source library for deep learning time series anomaly detection.
+# Time Series Anomaly Detection Evaluation Framework 
 
 :triangular_flag_on_post:**News** (2024.03) Our library is now fully functional!
 
