@@ -1,13 +1,5 @@
 # Time Series Anomaly Detection Evaluation Framework 
 
-:triangular_flag_on_post:**News** (2024.03) Our library is now fully functional!
-
-:triangular_flag_on_post:**News** (2024.02) Scoring and thresholding functions are added!
-
-:triangular_flag_on_post:**News** (2024.02) TAD evaluation metrics are added! 
-
-:triangular_flag_on_post:**News** (2024.01) State-of-the-art DL models are added!
-
 **Scoring functions** ☑ means that their codes have already been included in this repo. [[Code]](https://github.com/onatucsd/timeseries-intel/blob/main/utils/scoring.py)
 - [x] **ML-based Scoring**
 - [x] **Mean over Channels**
